@@ -20,20 +20,20 @@ app.use(express.static(publicDirectoryPath))
 app.get('',(req,res)=>{
     res.render('index', {
         title: 'Weather App for Docker course',
-        name: 'Shinebayar. Ts'
+        name: 'Yusen-erdene .B'
     })
 })
 app.get('/about',(req,res)=>{
     res.render('about', {
         title: 'About Me',
-        name: 'Shinebayar. Ts'
+        name: 'zetsubou11'
     })
 })
 app.get('/help',(req,res)=>{
     res.render('help', {
         title: 'Help Page',
         helpText: 'Some help text exist',
-        name: 'Shinebayar Ts.'
+        name: 'zetsubou11'
     })
 })
 
